@@ -44,12 +44,12 @@ PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
 # MASUKIN TOKEN DISINI GUYS
-selfbot = "TOKEN"
-kicker1 = "TOKEN"
-kicker2 = "TOKEN"
-kicker3 = "TOKEN"
-kicker4 = "TOKEN"
-pending = "TOKEN"
+selfbot = "EAUOVvY7Ikh4RPkFX5Ea.a6dzd0TpLsSRAJiksGPbgG.ncfNGqNb/XZjSE/p21jGViFVzoucQCYgIUR5xd6EeR0="
+kicker1 = "EASNrxbPSntbSakjuwl1.S8onZtw5zv5UJn6lN/BB4q.ZgiT4RAcye2OFrLZhEOf0VMHmsUWPe7a4Pc2MZAajnQ="
+#kicker2 = "TOKEN"
+#kicker3 = "TOKEN"
+#kicker4 = "TOKEN"
+pending = "EAZVaowWBg0nSDWlL9T0.3Ue5K3qM3D42m7t4fN5kma.UrvoumhCUyI+TWc6QkOQS4PRqSGRl5ItYZaEfcybQVE="
 """
 PPPPPPPPPPPPPPPPP                                                           kkkkkkkk           BBBBBBBBBBBBBBBBB                             tttt                           
 P::::::::::::::::P                                                          k::::::k           B::::::::::::::::B                         ttt:::t                           
@@ -71,9 +71,9 @@ PPPPPPPPPP           rrrrrrr              aaaaaaaaaa  aaaa  nnnnnn    nnnnnnkkkk
 """
 #__________________________
 kk1 = LINE(kicker1)
-kk2 = LINE(kicker2)
-kk3 = LINE(kicker3)
-kk4 = LINE(kicker4)
+#kk2 = LINE(kicker2)
+#kk3 = LINE(kicker3)
+#kk4 = LINE(kicker4)
 jss = LINE(pending)
 runnerResponse = "\n\nPPPPPPPPPPPPPPPPP\nP::::::::::::::::P\nP::::::PPPPPP:::::P\nPP:::::P     P:::::P\n  P::::P     P:::::P\n  P::::P     P:::::P\n  P::::PPPPPP:::::P\n  P:::::::::::::PP\n  P::::PPPPPPPPP\n  P::::P\n  P::::P\n  P::::P\nPP::::::PP\nP::::::::P\nP::::::::P\nPPPPPPPPPP\n\n\nrrrrr   rrrrrrrrr\nr::::rrr:::::::::r\nr:::::::::::::::::r\nrr::::::rrrrr::::::r\n r:::::r     r:::::r\n r:::::r     rrrrrrr\n r:::::r\n r:::::r\n r:::::r\n r:::::r\n r:::::r\n rrrrrrr\n\n\n  aaaaaaaaaaaaa\n  a::::::::::::a\n  aaaaaaaaa:::::a\n           a::::a\n    aaaaaaa:::::a\n  aa::::::::::::a\n a::::aaaa::::::a\na::::a    a:::::a\na::::a    a:::::a\na:::::aaaa::::::a\n a::::::::::aa:::a\n  aaaaaaaaaa  aaaa\n\n\nnnnn  nnnnnnnnn\nn:::nn::::::::nn\nn::::::::::::::nn\nnn:::::::::::::::n\n  n:::::nnnn:::::n\n  n::::n    n::::n\n  n::::n    n::::n\n  n::::n    n::::n\n  n::::n    n::::n\n  n::::n    n::::n\n  n::::n    n::::n\n  nnnnnn    nnnnnn\n\n\nkkkkkkkk\nk::::::k\nk::::::k\nk::::::k\n k:::::k    kkkkkkk\n k:::::k   k:::::k\n k:::::k  k:::::k\n k:::::k k:::::k\n k::::::k:::::k\n k:::::::::::k\n k:::::::::::k\n k::::::k:::::k\nk::::::k k:::::k\nk::::::k  k:::::k\nk::::::k   k:::::k\nkkkkkkkk    kkkkkkk\n\n\nBBBBBBBBBBBBBBBBB\nB::::::::::::::::B\nB::::::BBBBBB:::::B\nBB:::::B     B:::::B\n  B::::B     B:::::B\n  B::::B     B:::::B\n  B::::BBBBBB:::::B\n  B:::::::::::::BB\n  B::::BBBBBB:::::B\n  B::::B     B:::::B\n  B::::B     B:::::B\n  B::::B     B:::::B\nBB:::::BBBBBB::::::B\nB:::::::::::::::::B\nB::::::::::::::::B\nBBBBBBBBBBBBBBBBB\n\n\n   ooooooooooo\n oo:::::::::::oo\no:::::::::::::::o\no:::::ooooo:::::o\no::::o     o::::o\no::::o     o::::o\no::::o     o::::o\no::::o     o::::o\no:::::ooooo:::::o\no:::::::::::::::o\n oo:::::::::::oo\n   ooooooooooo\n\n\n         tttt\n      ttt:::t\n      t:::::t\n      t:::::t\nttttttt:::::ttttttt\nt:::::::::::::::::t\nt:::::::::::::::::t\ntttttt:::::::tttttt\n      t:::::t\n      t:::::t\n      t:::::t\n      t:::::t    tttttt\n      t::::::tttt:::::t\n      tt::::::::::::::t\n        tt:::::::::::tt\n          ttttttttttt\n\n\n    ssssssssss\n  ss::::::::::s\nss:::::::::::::s\ns::::::ssss:::::s\n s:::::s  ssssss\n   s::::::s\n     s::::::s\n        s:::::s\nssssss   s:::::s\ns:::::ssss::::::s\ns::::::::::::::s\n s:::::::::::ss\n  sssssssssss"
 me = LINE(selfbot)
@@ -81,21 +81,21 @@ me.log(runnerResponse)
 meProfile = me.getProfile()
 meSettings = me.getSettings()
 kk1Profile = kk1.getProfile()
-kk2Profile = kk2.getProfile()
-kk3Profile = kk3.getProfile()
-kk4Profile = kk4.getProfile()
+#kk2Profile = kk2.getProfile()
+#kk3Profile = kk3.getProfile()
+#kk4Profile = kk4.getProfile()
 jssProfile = jss.getProfile()
 meM = meProfile.mid
 kk1Rank = kk1Profile.mid
-kk2Rank = kk2Profile.mid
-kk3Rank = kk3Profile.mid
-kk4Rank = kk4Profile.mid
+#kk2Rank = kk2Profile.mid
+#kk3Rank = kk3Profile.mid
+#kk4Rank = kk4Profile.mid
 jssRank = jssProfile.mid
 oepoll = OEPoll(me)
 Owner = PrankBots["owner"]
 Stiles = "│○"
-BotWar = [meM,kk1Rank,kk2Rank,kk3Rank,kk4Rank,jssRank]
-allrepositories = [me,kk1,kk2,kk3,kk4,jss]
+BotWar = [meM,kk1Rank,jssRank]
+allrepositories = [me,kk1,jss]
 respontags = {
     "Auto_text": "\nYes I'am Here"
 }
@@ -114,7 +114,7 @@ apikey_com = "u0ac948397fbc732bd3bc5ca273faa698"
 coverId = me.getProfileDetail()["result"]["objectId"]
 PrankBots["myProfile"]["coverId"] = coverId
 Extr = me.getContact(apikey_com).displayName
-all_Square = ["ub0842532a31b9d99856cf2590b17d33f","udfaf52176415b46cb445ae2757ec85f3","u17a086ccff618e754588a1108335867f","uc8dc5352066b6a344bde3c07b0fe04ea","ub9c30fd47257ec4337ee777657b4df66"]
+all_Square = ["u03a0d90f4b4f952b2b6a320a4a0a411a"]
 for busht in allrepositories:
     for anding in all_Square:
         try:
@@ -264,7 +264,7 @@ def RunTheRun(to, mid, firstmessage):
         me.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         me.sendMessage(to, "Error :\n" + str(error))
-warKey = """_________warbot__________
+warKey = """_________bot__________
 1. warbot
 2. warban
 3. warclearban
